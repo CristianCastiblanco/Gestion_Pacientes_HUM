@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-image: url("/vista/dist/imagen/img1.jpg");
+	background-image: url("/vista/dist/imagen/");
 	background-size: 100vw 100vh;
 	background-attachment: fixed;
 	
@@ -17,7 +17,8 @@ form{
 	padding: 200px 30px;
 	box-sizing: border-box;
 	margin-top: 150px;
-	border-radius: 3px;
+	margin-right: 100px;
+	border-radius: 10px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
 
@@ -41,6 +42,7 @@ h3{
 input {
 	width: 100%;
 	margin-bottom: 20px;
+	border-radius: 10px;
 	padding: 10px;
 	box-sizing: border-box;
 	font-size: 20px;
@@ -58,5 +60,6 @@ input {
 	max-width: 70%;
 	margin-left: 90px;
 	margin-top: 25px;
+	border-radius: 10px;
 	
 }
